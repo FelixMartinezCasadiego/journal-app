@@ -1,11 +1,12 @@
 import { JournalLayout } from "../layout/JournalLayout";
 
-import { NothingSelectedView } from "../views";
+import { NoteView } from "../views";
 
 export const Journal = () => {
   return (
     <JournalLayout>
-      <NothingSelectedView />
+      {/* <NothingSelectedView /> */}
+      <NoteView />
     </JournalLayout>
   );
 };
